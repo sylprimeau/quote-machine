@@ -1,0 +1,55 @@
+body {
+  background-color: #156a27;
+  margin-top: 20px;
+}
+
+#quote:first-child:first-letter {
+  color: black;
+  font-size: 50px;
+}
+
+a {
+  color: black;
+}
+
+.btn:hover {
+  cursor: default;
+  opacity: .8;
+  color: #85da97;
+}
+
+.btn {
+  background-color: #156a27;
+  color: #85da97;
+  font-size: 100%;
+  margin: 10px;
+  padding: 7px;
+}
+
+.btn[disabled] {
+  opacity: .8;
+}
+
+
+#quote-wrapper {
+  background-color: #77cc89;
+  border-radius: 10px;
+  max-width: 500px;
+  margin: 30px auto;
+  font-family: 'Josefin Sans', sans-serif;
+  line-height: 40px;
+}
+
+#quote {
+  font-size: 200%;
+  text-align: left;
+  margin: 0px 30px 0px 30px;
+  padding-top: 30px;
+}
+
+#author {
+  font-style: italic;
+  text-align: right;
+  margin: 0px 20px 20px 20px;
+}
+
